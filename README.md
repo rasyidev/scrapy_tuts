@@ -9,3 +9,6 @@ example:
 > scrapy runspider /path/to/spider/spider.py
 or
 > scrapu crawl <spider_name>
+
+### Export data to json via CLI
+> scrapy crawl <spider_name> -o <output_filename>

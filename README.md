@@ -12,3 +12,6 @@ or
 
 ### Export data to json via CLI
 > scrapy crawl <spider_name> -o <output_filename>
+
+### Change URL in Scrapy Shell Without Exiting the Shell
+> In [x]: fetch(new_url)
